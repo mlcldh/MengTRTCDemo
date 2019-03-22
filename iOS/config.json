@@ -1,0 +1,21 @@
+{
+    "sdkappid":1400173979,
+    "users":[
+             {
+             "userId":"Web_trtc_01",
+             "userToken":"eJx"
+             },
+             {
+             "userId":"Web_trtc_02",
+             "userToken":"eJx"
+             },
+             {
+             "userId":"Web_trtc_03",
+             "userToken":"eJx"
+             },
+             {
+             "userId":"Web_trtc_04",
+             "userToken":"eJx"
+             }
+             ]
+}

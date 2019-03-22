@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios,			'8.0'
+inhibit_all_warnings!
+
+target:'MengTRTCDemo'
+
+pod 'Masonry','1.1.0'
+pod 'TXLiteAVSDK_TRTC', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_TRTC.podspec'
+#pod 'TXLiteAVSDK_TRTC'
