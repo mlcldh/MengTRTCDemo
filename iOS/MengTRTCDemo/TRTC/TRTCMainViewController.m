@@ -63,6 +63,7 @@ typedef enum : NSUInteger {
 @property (nonatomic, copy) NSString* roomID;
 @property (nonatomic, copy) NSString* selfUserID;
 @property NSString  *selfUserSig;
+@property (nonatomic, strong) UIButton *switchCameraButton;//
 
 @end
 
@@ -241,6 +242,8 @@ typedef enum : NSUInteger {
     _layoutEngine.view = _holderView;
     
     [self relayout];
+    
+    [self switchCameraButton];
 }
 
 - (UIButton*)createBottomBtnIcon:(NSString*)icon Action:(SEL)action Center:(CGPoint)center  Size:(int)size
@@ -253,7 +256,17 @@ typedef enum : NSUInteger {
     [self.view addSubview:btn];
     return btn;
 }
-
+- (UIButton *)switchCameraButton {
+    if (!_switchCameraButton) {
+        _switchCameraButton = [UIButton buttonWithType:(UIButtonTypeSystem)];
+        _switchCameraButton.frame = CGRectMake(20, 100, 50, 30);
+        _switchCameraButton.backgroundColor = [UIColor purpleColor];
+        [_switchCameraButton setTitle:@"switchCamera" forState:(UIControlStateNormal)];
+        [_switchCameraButton addTarget:self action:@selector(switchCameraButtonAction:) forControlEvents:(UIControlEventTouchUpInside)];
+        [self.view addSubview:_switchCameraButton];
+    }
+    return _switchCameraButton;
+}
 
 /**
  * 视频窗口排布函数，此处代码用于调整界面上数个视频画面的大小和位置
@@ -361,6 +374,8 @@ typedef enum : NSUInteger {
     
     // 进房
     TRTCAppScene scene = [TRTCSettingViewController getAppScene];
+    NSLog(@"menglc sdkAppId %@,roomId %@,userId %@,userSig %@,privateMapKey %@,bussInfo %@",@(self.param.sdkAppId),@(self.param.roomId),self.param.userId,
+          self.param.userSig,self.param.privateMapKey,self.param.bussInfo);
     [_trtc enterRoom:self.param appScene:scene];
 }
 
@@ -625,7 +640,9 @@ typedef enum : NSUInteger {
         _moreSettingVC = nil;
     }
 }
-
+- (void)switchCameraButtonAction:(UIButton *)button {
+    [_trtc switchCamera];
+}
 #pragma mark - TRTCMoreSettingDelegate
 - (void)onAudioVolumeEnableChanged:(BOOL)enable
 {
@@ -637,7 +654,7 @@ typedef enum : NSUInteger {
 - (void)onCloudMixingEnable:(BOOL)enable
 {
     if (enable) {
-        [self updateCloudMixtureParams];
+//        [self updateCloudMixtureParams];
     }
     else {
         [_trtc setMixTranscodingConfig:nil];
@@ -731,7 +748,7 @@ typedef enum : NSUInteger {
     _mainViewUserId = userId;
 
     [self relayout];
-    [self updateCloudMixtureParams];
+//    [self updateCloudMixtureParams];
 
 }
 
@@ -755,7 +772,7 @@ typedef enum : NSUInteger {
     }
 
     [self relayout];
-    [self updateCloudMixtureParams];
+//    [self updateCloudMixtureParams];
 
 }
 

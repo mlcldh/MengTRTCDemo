@@ -40,6 +40,41 @@
 		8DE140292244890800A7C2AD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1400B2244890800A7C2AD /* AFSecurityPolicy.m */; };
 		8DE1402A2244890800A7C2AD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1400E2244890800A7C2AD /* MBProgressHUD.m */; };
 		8DE1402C224489C200A7C2AD /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DE1402B224489C200A7C2AD /* config.json */; };
+		8DEEEFD522575DFD00407C92 /* configs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DEEEFD422575DFC00407C92 /* configs.json */; };
+		8DEEEFD922575E2D00407C92 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE140082244890800A7C2AD /* AFURLRequestSerialization.m */; };
+		8DEEEFDA22575E2D00407C92 /* TRTCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FD12244890700A7C2AD /* TRTCMainViewController.m */; };
+		8DEEEFDB22575E2D00407C92 /* TRTCMoreSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FDC2244890700A7C2AD /* TRTCMoreSettingViewController.m */; };
+		8DEEEFDC22575E2D00407C92 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FFE2244890800A7C2AD /* AFImageDownloader.m */; };
+		8DEEEFDD22575E2D00407C92 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FED2244890800A7C2AD /* UIRefreshControl+AFNetworking.m */; };
+		8DEEEFDE22575E2D00407C92 /* TRTCSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FDB2244890700A7C2AD /* TRTCSettingViewController.m */; };
+		8DEEEFDF22575E2D00407C92 /* TRTCGetUserIDAndUserSig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FD32244890700A7C2AD /* TRTCGetUserIDAndUserSig.m */; };
+		8DEEEFE022575E2D00407C92 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1400E2244890800A7C2AD /* MBProgressHUD.m */; };
+		8DEEEFE122575E2D00407C92 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FEB2244890800A7C2AD /* UIProgressView+AFNetworking.m */; };
+		8DEEEFE222575E2D00407C92 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FFA2244890800A7C2AD /* UIActivityIndicatorView+AFNetworking.m */; };
+		8DEEEFE322575E2D00407C92 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1400A2244890800A7C2AD /* AFNetworkReachabilityManager.m */; };
+		8DEEEFE422575E2D00407C92 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FF62244890800A7C2AD /* UIImageView+AFNetworking.m */; };
+		8DEEEFE522575E2D00407C92 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FF02244890800A7C2AD /* AFNetworkActivityIndicatorManager.m */; };
+		8DEEEFE622575E2D00407C92 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE140072244890800A7C2AD /* AFURLSessionManager.m */; };
+		8DEEEFE722575E2D00407C92 /* NSData+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FE22244890700A7C2AD /* NSData+Common.m */; };
+		8DEEEFE822575E2D00407C92 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE140052244890800A7C2AD /* AFHTTPSessionManager.m */; };
+		8DEEEFE922575E2D00407C92 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FF92244890800A7C2AD /* UIButton+AFNetworking.m */; };
+		8DEEEFEA22575E2D00407C92 /* NSString+UISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FE42244890700A7C2AD /* NSString+UISize.m */; };
+		8DEEEFEB22575E2D00407C92 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FE32244890700A7C2AD /* NSString+Common.m */; };
+		8DEEEFEC22575E2D00407C92 /* TRTCVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FD82244890700A7C2AD /* TRTCVideoView.m */; };
+		8DEEEFED22575E2D00407C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FC82244881C00A7C2AD /* main.m */; };
+		8DEEEFEE22575E2D00407C92 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1400B2244890800A7C2AD /* AFSecurityPolicy.m */; };
+		8DEEEFEF22575E2D00407C92 /* TRTCVideoViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FD92244890700A7C2AD /* TRTCVideoViewLayout.m */; };
+		8DEEEFF022575E2D00407C92 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FFB2244890800A7C2AD /* UIWebView+AFNetworking.m */; };
+		8DEEEFF122575E2D00407C92 /* TRTCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FD62244890700A7C2AD /* TRTCNewViewController.m */; };
+		8DEEEFF222575E2D00407C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FBA2244881C00A7C2AD /* AppDelegate.m */; };
+		8DEEEFF322575E2D00407C92 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FE12244890700A7C2AD /* UIView+Additions.m */; };
+		8DEEEFF422575E2D00407C92 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE140042244890800A7C2AD /* AFURLResponseSerialization.m */; };
+		8DEEEFF522575E2D00407C92 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE13FFC2244890800A7C2AD /* AFAutoPurgingImageCache.m */; };
+		8DEEEFF722575E2D00407C92 /* libPods-MengTRTCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E860343E45A5F095968D844 /* libPods-MengTRTCDemo.a */; };
+		8DEEEFF922575E2D00407C92 /* configs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DEEEFD422575DFC00407C92 /* configs.json */; };
+		8DEEEFFA22575E2D00407C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE13FC42244881C00A7C2AD /* LaunchScreen.storyboard */; };
+		8DEEEFFB22575E2D00407C92 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DE1402B224489C200A7C2AD /* config.json */; };
+		8DEEEFFC22575E2D00407C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE13FC22244881C00A7C2AD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +145,9 @@
 		8DE1400E2244890800A7C2AD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8DE1400F2244890800A7C2AD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		8DE1402B224489C200A7C2AD /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		8DEEEFD422575DFC00407C92 /* configs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configs.json; sourceTree = "<group>"; };
+		8DEEF00022575E2D00407C92 /* MengTRTCDemoS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengTRTCDemoS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEEF00122575E2D00407C92 /* MengTRTCDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MengTRTCDemo copy-Info.plist"; path = "/Users/menglingchao/Desktop/MyDemo/MengTRTCDemo/iOS/MengTRTCDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 		B87086EF7B817D21918AA521 /* Pods-MengTRTCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengTRTCDemo.release.xcconfig"; path = "Target Support Files/Pods-MengTRTCDemo/Pods-MengTRTCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BCCC0F24488C09FBC076D8E1 /* Pods-MengTRTCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengTRTCDemo.debug.xcconfig"; path = "Target Support Files/Pods-MengTRTCDemo/Pods-MengTRTCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				671F9285F947944388706AB5 /* libPods-MengTRTCDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEEFF622575E2D00407C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEEEFF722575E2D00407C92 /* libPods-MengTRTCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,10 +184,12 @@
 			isa = PBXGroup;
 			children = (
 				8DE1402B224489C200A7C2AD /* config.json */,
+				8DEEEFD422575DFC00407C92 /* configs.json */,
 				8DE13FB82244881C00A7C2AD /* MengTRTCDemo */,
 				8DE13FB72244881C00A7C2AD /* Products */,
 				A18AF632417F733C8E65F1AD /* Pods */,
 				1D8A5E069AB51303FDDD922F /* Frameworks */,
+				8DEEF00122575E2D00407C92 /* MengTRTCDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				8DE13FB62244881C00A7C2AD /* MengTRTCDemo.app */,
+				8DEEF00022575E2D00407C92 /* MengTRTCDemoS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,19 +222,19 @@
 			isa = PBXGroup;
 			children = (
 				8DE13FD02244890700A7C2AD /* TRTCVideoView.h */,
-				8DE13FD12244890700A7C2AD /* TRTCMainViewController.m */,
-				8DE13FD22244890700A7C2AD /* TRTCVideoViewLayout.h */,
-				8DE13FD32244890700A7C2AD /* TRTCGetUserIDAndUserSig.m */,
-				8DE13FD42244890700A7C2AD /* TRTCMoreSettingViewController.h */,
-				8DE13FD52244890700A7C2AD /* TRTCSettingViewController.h */,
+				8DE13FD82244890700A7C2AD /* TRTCVideoView.m */,
+				8DE13FDA2244890700A7C2AD /* TRTCNewViewController.h */,
 				8DE13FD62244890700A7C2AD /* TRTCNewViewController.m */,
 				8DE13FD72244890700A7C2AD /* TRTCMainViewController.h */,
-				8DE13FD82244890700A7C2AD /* TRTCVideoView.m */,
+				8DE13FD12244890700A7C2AD /* TRTCMainViewController.m */,
+				8DE13FD22244890700A7C2AD /* TRTCVideoViewLayout.h */,
 				8DE13FD92244890700A7C2AD /* TRTCVideoViewLayout.m */,
-				8DE13FDA2244890700A7C2AD /* TRTCNewViewController.h */,
+				8DE13FDD2244890700A7C2AD /* TRTCGetUserIDAndUserSig.h */,
+				8DE13FD32244890700A7C2AD /* TRTCGetUserIDAndUserSig.m */,
+				8DE13FD52244890700A7C2AD /* TRTCSettingViewController.h */,
 				8DE13FDB2244890700A7C2AD /* TRTCSettingViewController.m */,
 				8DE13FDC2244890700A7C2AD /* TRTCMoreSettingViewController.m */,
-				8DE13FDD2244890700A7C2AD /* TRTCGetUserIDAndUserSig.h */,
+				8DE13FD42244890700A7C2AD /* TRTCMoreSettingViewController.h */,
 			);
 			path = TRTC;
 			sourceTree = "<group>";
@@ -194,13 +243,13 @@
 			isa = PBXGroup;
 			children = (
 				8DE13FDF2244890700A7C2AD /* NSString+Common.h */,
-				8DE13FE02244890700A7C2AD /* NSString+UISize.h */,
-				8DE13FE12244890700A7C2AD /* UIView+Additions.m */,
-				8DE13FE22244890700A7C2AD /* NSData+Common.m */,
 				8DE13FE32244890700A7C2AD /* NSString+Common.m */,
+				8DE13FE02244890700A7C2AD /* NSString+UISize.h */,
 				8DE13FE42244890700A7C2AD /* NSString+UISize.m */,
 				8DE13FE52244890700A7C2AD /* NSData+Common.h */,
+				8DE13FE22244890700A7C2AD /* NSData+Common.m */,
 				8DE13FE62244890700A7C2AD /* UIView+Additions.h */,
+				8DE13FE12244890700A7C2AD /* UIView+Additions.m */,
 				8DE13FE72244890700A7C2AD /* ColorMacro.h */,
 			);
 			path = Util;
@@ -310,6 +359,24 @@
 			productReference = 8DE13FB62244881C00A7C2AD /* MengTRTCDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8DEEEFD622575E2D00407C92 /* MengTRTCDemoS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEEEFFD22575E2D00407C92 /* Build configuration list for PBXNativeTarget "MengTRTCDemoS" */;
+			buildPhases = (
+				8DEEEFD722575E2D00407C92 /* [CP] Check Pods Manifest.lock */,
+				8DEEEFD822575E2D00407C92 /* Sources */,
+				8DEEEFF622575E2D00407C92 /* Frameworks */,
+				8DEEEFF822575E2D00407C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MengTRTCDemoS;
+			productName = MengTRTCDemo;
+			productReference = 8DEEF00022575E2D00407C92 /* MengTRTCDemoS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -321,6 +388,9 @@
 				TargetAttributes = {
 					8DE13FB52244881C00A7C2AD = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8DEEEFD622575E2D00407C92 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -339,6 +409,7 @@
 			projectRoot = "";
 			targets = (
 				8DE13FB52244881C00A7C2AD /* MengTRTCDemo */,
+				8DEEEFD622575E2D00407C92 /* MengTRTCDemoS */,
 			);
 		};
 /* End PBXProject section */
@@ -348,9 +419,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DEEEFD522575DFD00407C92 /* configs.json in Resources */,
 				8DE13FC62244881C00A7C2AD /* LaunchScreen.storyboard in Resources */,
 				8DE1402C224489C200A7C2AD /* config.json in Resources */,
 				8DE13FC32244881C00A7C2AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEEFF822575E2D00407C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEEEFF922575E2D00407C92 /* configs.json in Resources */,
+				8DEEEFFA22575E2D00407C92 /* LaunchScreen.storyboard in Resources */,
+				8DEEEFFB22575E2D00407C92 /* config.json in Resources */,
+				8DEEEFFC22575E2D00407C92 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +441,24 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		326618FB39CA98E72442190B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MengTRTCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DEEEFD722575E2D00407C92 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,6 +512,42 @@
 				8DE140172244890800A7C2AD /* UIView+Additions.m in Sources */,
 				8DE140242244890800A7C2AD /* AFURLResponseSerialization.m in Sources */,
 				8DE140222244890800A7C2AD /* AFAutoPurgingImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEEFD822575E2D00407C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEEEFD922575E2D00407C92 /* AFURLRequestSerialization.m in Sources */,
+				8DEEEFDA22575E2D00407C92 /* TRTCMainViewController.m in Sources */,
+				8DEEEFDB22575E2D00407C92 /* TRTCMoreSettingViewController.m in Sources */,
+				8DEEEFDC22575E2D00407C92 /* AFImageDownloader.m in Sources */,
+				8DEEEFDD22575E2D00407C92 /* UIRefreshControl+AFNetworking.m in Sources */,
+				8DEEEFDE22575E2D00407C92 /* TRTCSettingViewController.m in Sources */,
+				8DEEEFDF22575E2D00407C92 /* TRTCGetUserIDAndUserSig.m in Sources */,
+				8DEEEFE022575E2D00407C92 /* MBProgressHUD.m in Sources */,
+				8DEEEFE122575E2D00407C92 /* UIProgressView+AFNetworking.m in Sources */,
+				8DEEEFE222575E2D00407C92 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				8DEEEFE322575E2D00407C92 /* AFNetworkReachabilityManager.m in Sources */,
+				8DEEEFE422575E2D00407C92 /* UIImageView+AFNetworking.m in Sources */,
+				8DEEEFE522575E2D00407C92 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8DEEEFE622575E2D00407C92 /* AFURLSessionManager.m in Sources */,
+				8DEEEFE722575E2D00407C92 /* NSData+Common.m in Sources */,
+				8DEEEFE822575E2D00407C92 /* AFHTTPSessionManager.m in Sources */,
+				8DEEEFE922575E2D00407C92 /* UIButton+AFNetworking.m in Sources */,
+				8DEEEFEA22575E2D00407C92 /* NSString+UISize.m in Sources */,
+				8DEEEFEB22575E2D00407C92 /* NSString+Common.m in Sources */,
+				8DEEEFEC22575E2D00407C92 /* TRTCVideoView.m in Sources */,
+				8DEEEFED22575E2D00407C92 /* main.m in Sources */,
+				8DEEEFEE22575E2D00407C92 /* AFSecurityPolicy.m in Sources */,
+				8DEEEFEF22575E2D00407C92 /* TRTCVideoViewLayout.m in Sources */,
+				8DEEEFF022575E2D00407C92 /* UIWebView+AFNetworking.m in Sources */,
+				8DEEEFF122575E2D00407C92 /* TRTCNewViewController.m in Sources */,
+				8DEEEFF222575E2D00407C92 /* AppDelegate.m in Sources */,
+				8DEEEFF322575E2D00407C92 /* UIView+Additions.m in Sources */,
+				8DEEEFF422575E2D00407C92 /* AFURLResponseSerialization.m in Sources */,
+				8DEEEFF522575E2D00407C92 /* AFAutoPurgingImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +701,43 @@
 			};
 			name = Release;
 		};
+		8DEEEFFE22575E2D00407C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCC0F24488C09FBC076D8E1 /* Pods-MengTRTCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8HG83X27;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"MengTRTCDemoS=1",
+				);
+				INFOPLIST_FILE = "MengTRTCDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglc.hehea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DEEEFFF22575E2D00407C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87086EF7B817D21918AA521 /* Pods-MengTRTCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG8HG83X27;
+				INFOPLIST_FILE = "MengTRTCDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglc.hehea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +755,15 @@
 			buildConfigurations = (
 				8DE13FCD2244881C00A7C2AD /* Debug */,
 				8DE13FCE2244881C00A7C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEEEFFD22575E2D00407C92 /* Build configuration list for PBXNativeTarget "MengTRTCDemoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEEEFFE22575E2D00407C92 /* Debug */,
+				8DEEEFFF22575E2D00407C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

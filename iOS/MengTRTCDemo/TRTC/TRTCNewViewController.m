@@ -59,7 +59,7 @@
     _roomIdTextField.delegate = self;
     _roomIdTextField.leftView = paddingView;
     _roomIdTextField.leftViewMode = UITextFieldViewModeAlways;
-    _roomIdTextField.placeholder = @"901";
+    _roomIdTextField.placeholder = @"9000";
     _roomIdTextField.backgroundColor = UIColorFromRGB(0x4a4a4a);
     _roomIdTextField.textColor = UIColorFromRGB(0x939393);
     _roomIdTextField.keyboardType = UIKeyboardTypeNumberPad;
@@ -175,8 +175,8 @@
     param.sdkAppId = _sdkAppid;
     param.userId = userId;
     param.roomId = (UInt32)roomId.integerValue;
-    param.privateMapKey = @"";
-    param.bussInfo = @"";
+//    param.privateMapKey = @"";
+//    param.bussInfo = @"";
     vc.param = param;
 	
 	// 从控制台获取的 json 文件中，简单获取几组已经提前计算好的 userid 和 usersig

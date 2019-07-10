@@ -19,6 +19,9 @@
 {
     @try {
         NSString *filePath = [[NSBundle mainBundle] pathForResource:@"config" ofType:@"json"];
+#if MengTRTCDemoS
+        filePath = [[NSBundle mainBundle] pathForResource:@"configs" ofType:@"json"];
+#endif
         NSData *json = [NSData dataWithContentsOfFile:filePath];
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingAllowFragments error:nil];
         _configSdkAppid = (uint32_t)[[dict objectForKey:@"sdkappid"] integerValue];
